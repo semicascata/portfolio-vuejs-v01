@@ -1,31 +1,37 @@
 <template>
   <div class="home-container">
-    <h2 class="title-name">Raul O. Duarte</h2>
-    <h4 class="subtitle">IT Technician/NOC Analyst Jr/Web Developer Jr</h4>
-
     <div class="parallaxContainer">
-      <div class="parallaxEffect"></div>
-    </div>
+      <div class="parallaxEffect">
+        <div class="head-container">
+          <h2 class="title-name">Raul O. Duarte</h2>
+          <h4 class="subtitle">
+            IT Technician/NOC Analyst Jr/Web Developer Jr
+          </h4>
+        </div>
 
-    <div class="post-parallax-content">
-      <BrCards />
+        <div class="cards-container">
+          <BrCards />
 
-      <!-- modal trigger -->
-      <div class="modal-btn">
-        <button
-          type="button"
-          class="btn btn-light"
-          data-toggle="modal"
-          data-target="#fullDescription"
-        >
-          Descrição Completa
-        </button>
+          <!-- modal trigger -->
+          <!-- <div class="modal-btn">
+            <button
+              type="button"
+              class="btn btn-light"
+              data-toggle="modal"
+              data-target="#fullDescription"
+            >
+              Descrição Completa
+            </button>
+          </div> -->
+        </div>
       </div>
     </div>
 
-    <div class="carousel-container">
-      <h3>Projects Preview:</h3>
-      <Carousel />
+    <div class="post-parallax-content">
+      <div class="carousel-container">
+        <h3>Projects Preview:</h3>
+        <Carousel />
+      </div>
     </div>
 
     <!-- modals -->
