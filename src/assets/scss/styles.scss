@@ -2,11 +2,11 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
 // googlefonts
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather&family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather&family=Bree+Serif&display=swap");
 
 // global styles
 $font-title: "Abril Fatface", cursive;
-$font-primary: "Open Sans", sans-serif;
+$font-primary: "Bree Serif", serif;
 $font-secondary: "Merriweather", serif;
 $color-primary: #212121;
 $color-secondary: #fff;
@@ -25,7 +25,10 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: $font-secondary;
   color: $color-secondary;
 }
@@ -38,12 +41,12 @@ h1, h2, h3, h4 {
 
 // footer
 footer {
-  font-family: $font-secondary;
+  font-family: $font-primary;
   text-align: center;
   margin: 40px auto;
 }
 
-// home & parallax
+// home
 .home-container {
   width: 100%;
   margin: 0;
@@ -62,6 +65,7 @@ footer {
   text-align: center;
 }
 
+// parallax effect
 .parallaxContainer {
   margin: 40px 0;
 }
@@ -77,23 +81,53 @@ footer {
   background-size: cover;
 }
 
+// content
 .post-parallax-content {
-  width: 800px;
-  text-align: justify;
+  width: auto;
   margin: 60px auto;
 }
 
-.modal-btn {
-  margin: 0 auto;
-  text-align: center;
+.container {
+  width: 900px;
 }
 
 // modal
+.modal-btn {
+  font-family: $font-secondary;
+  margin: 15px auto;
+  text-align: center;
+}
+
 .modal {
   font-family: $font-secondary;
   color: $color-primary;
 
   .modal-body {
     padding: 30px;
+  }
+}
+
+// cards(home)
+.card {
+  font-family: $font-secondary;
+  color: $color-primary;
+  margin: 15px auto;
+  width: 420px;
+  height: 170px;
+}
+
+// carousel
+.carousel-container {
+  padding: 50px;
+  text-align: center;
+}
+
+.carousel {
+  width: 700px;
+  margin: 40px auto;
+
+  img {
+    border-radius: 10px;
+    margin: 0 auto;
   }
 }
