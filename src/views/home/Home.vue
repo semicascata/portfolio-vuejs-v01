@@ -2,32 +2,25 @@
   <div class="home-container">
     <div class="parallaxContainer">
       <div class="parallaxEffect">
+        <Navbar />
         <div class="head-container">
           <!-- <h2 class="title-name">Raul O. Duarte</h2> -->
-          <div class="twContainer">
+          <!-- <div class="twContainer">
             <div class="twEffect">
               <h4 class="twText title-name">Raul O. Duarte.</h4>
             </div>
-          </div>
-          <h4 class="subtitle">
-            IT Technician/NOC Analyst Jr/Web Developer Jr
-          </h4>
+          </div> -->
+
+          <p class="title-effect">
+            <span>
+              Raul O. Duarte
+            </span>
+            &mdash; IT Technician/Web Developer Jr &mdash;
+          </p>
         </div>
 
         <div class="cards-container">
           <BrCards />
-
-          <!-- modal trigger -->
-          <!-- <div class="modal-btn">
-            <button
-              type="button"
-              class="btn btn-light"
-              data-toggle="modal"
-              data-target="#fullDescription"
-            >
-              Descrição Completa
-            </button>
-          </div> -->
         </div>
       </div>
     </div>
@@ -45,16 +38,16 @@
 </template>
 
 <script>
-import BrDescModal from "./partials/BrDescModal";
+import Navbar from "../../components/layout/Navbar";
 import BrCards from "./partials/BrCards";
 import Carousel from "./partials/Carousel";
 
 export default {
   name: "Home",
   components: {
-    BrDescModal,
     BrCards,
     Carousel,
+    Navbar,
   },
 };
 </script>

@@ -1,9 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="navbar-brand"><i class="fas fa-archive"></i> rd-portfolio</div>
+    <div class="navbar-brand"><i class="fas fa-archive"></i> | Portfolio</div>
 
     <!-- toggle -->
-    <button
+    <!-- <button
       class="navbar-toggler"
       type="button"
       data-toggle="collapse"
@@ -13,7 +13,7 @@
       aria-label="Toggle navigation"
     >
       <span class="navbar-toggler-icon"></span>
-    </button>
+    </button> -->
 
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">

@@ -13,6 +13,7 @@ $color-secondary: #fff;
 $color-head: #e8e8e8;
 $bg-primary: #f1f3f8;
 $bg-secondary: #212121;
+$bg-title-url: "http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png";
 
 body {
   background-color: $bg-secondary;
@@ -53,29 +54,58 @@ footer {
   margin: 0;
 }
 
+// title
 .head-container {
-  padding-top: 80px;
-  margin-bottom: 160px;
-  color: $color-head;
+  text-align: center;
 
-  .title-name {
-    font-family: $title;
-    color: $color-head;
-    padding: 10px;
-    text-align: center;
-    font-size: 5rem;
+  .title-effect {
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    display: inline-block;
+    border: 4px double $color-head;
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    width: 40em;
+    margin: 0 0 0 -20em;
+
+    span {
+      font: 700 4.5em/1 $font-secondary;
+      letter-spacing: 0;
+      padding: 0.25em 0 0.325em;
+      display: block;
+      margin: 0 auto;
+      text-shadow: 0 0 80px $color-head;
+
+      // clip bg img
+      background: url($bg-title-url) repeat-y;
+      -webkit-background-clip: text;
+      background-clip: text;
+
+      // animate bg img
+      -webkit-text-fill-color: transparent;
+      animation: aitf 80s linear infinite;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+    }
   }
 
-  .subtitle {
-    color: $color-head;
-    font-size: 2rem;
-    margin: 10px;
-    text-align: center;
+  // Animate Background Image
+  @keyframes aitf {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
   }
 }
 
 .cards-container {
-  margin: 60px 0;
+  margin: 400px 0 60px;
+  display: block;
   padding-bottom: 50px;
 }
 
@@ -88,7 +118,7 @@ footer {
   height: auto;
 
   /* Parallax Scrolling */
-  background-image: url("../images/workstation2.jpg");
+  background-image: url("../images/black-aesthetic.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
