@@ -1,7 +1,11 @@
 <template>
   <div class="contact">
     <div class="me">
-      <h3><i class="fas fa-terminal"></i> Contact me</h3>
+      <div class="twContainer">
+        <div class="twEffect">
+          <h4 class="twText title-name">contact me.</h4>
+        </div>
+      </div>
       <div class="cardMe">
         <i class="fas fa-envelope"></i> raulduarte94@hotmail.com <br />
         <i class="fas fa-phone"></i> +55 (41) 9 9700-2285 <br />

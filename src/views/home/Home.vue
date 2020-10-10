@@ -4,7 +4,6 @@
       <div class="parallaxEffect">
         <Navbar />
         <div class="head-container">
-          <!-- <h2 class="title-name">Raul O. Duarte</h2> -->
           <!-- <div class="twContainer">
             <div class="twEffect">
               <h4 class="twText title-name">Raul O. Duarte.</h4>
@@ -27,7 +26,7 @@
 
     <div class="post-parallax-content">
       <div class="carousel-container">
-        <h1><i class="fas fa-project-diagram"></i> Projects:</h1>
+        <h1><i class="fas fa-terminal"></i> Projects:</h1>
         <Carousel />
       </div>
     </div>
