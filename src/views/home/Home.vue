@@ -3,7 +3,12 @@
     <div class="parallaxContainer">
       <div class="parallaxEffect">
         <div class="head-container">
-          <h2 class="title-name">Raul O. Duarte</h2>
+          <!-- <h2 class="title-name">Raul O. Duarte</h2> -->
+          <div class="twContainer">
+            <div class="twEffect">
+              <h4 class="twText title-name">Raul O. Duarte.</h4>
+            </div>
+          </div>
           <h4 class="subtitle">
             IT Technician/NOC Analyst Jr/Web Developer Jr
           </h4>
@@ -29,7 +34,7 @@
 
     <div class="post-parallax-content">
       <div class="carousel-container">
-        <h3>Projects Preview:</h3>
+        <h1><i class="fas fa-project-diagram"></i> Projects:</h1>
         <Carousel />
       </div>
     </div>

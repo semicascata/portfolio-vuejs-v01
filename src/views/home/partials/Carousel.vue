@@ -2,19 +2,68 @@
   <div id="carouselControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block" src="../../../assets/images/arietis1.png" />
+        <div class="jumbotron">
+          <h1 class="display-4">
+            Bill's Planner
+          </h1>
+          <p class="lead">
+            Reactjs, Redux, Axios, Bootstrap, Sass. <br />
+            Hosted on Netlify
+          </p>
+          <hr class="my-4" />
+          <p>
+            Frontend - Plan bills per date, pay, add cash, consult, etc.
+          </p>
+          <p class="lead">
+            <a
+              href="https://github.com/semicascata/bills-planner-reactjs-v2"
+              class="btn btn-lg btn-outline-dark"
+            >
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a
+              href="https://bills-planner-988549.netlify.app/"
+              class="btn btn-lg btn-outline-dark"
+            >
+              <i class="fas fa-globe"></i> Site</a
+            >
+          </p>
+          <span class="badge badge-pill badge-warning" style="font-size: 20px;">
+            In Progress
+          </span>
+        </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block" src="../../../assets/images/arietis2.png" />
-      </div>
-      <div class="carousel-item">
-        <img class="d-block" src="../../../assets/images/bp1.png" />
-      </div>
-      <div class="carousel-item">
-        <img class="d-block" src="../../../assets/images/bp2.png" />
-      </div>
-      <div class="carousel-item">
-        <img class="d-block" src="../../../assets/images/gitf1.png" />
+        <div class="jumbotron">
+          <h1 class="display-4">
+            Bill's Planner
+          </h1>
+          <p class="lead">
+            Nestjs, Mongoose, JWT, Argon2. <br />
+            Hosted on Heroku
+          </p>
+          <hr class="my-4" />
+          <p>
+            Backend - Plan bills per date, pay, add cash, consult, etc.
+          </p>
+          <p class="lead">
+            <a
+              href="https://github.com/semicascata/bills-planner-nestjs"
+              class="btn btn-lg btn-outline-dark"
+            >
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a
+              href="https://bills-planner-nestjs.herokuapp.com/bp/v1/"
+              class="btn btn-lg btn-outline-dark"
+            >
+              <i class="fas fa-globe"></i> Endpoint</a
+            >
+          </p>
+          <span class="badge badge-pill badge-warning" style="font-size: 20px;">
+            In Progress
+          </span>
+        </div>
       </div>
     </div>
     <a

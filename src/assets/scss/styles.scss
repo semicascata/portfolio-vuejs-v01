@@ -63,7 +63,7 @@ footer {
     color: $color-head;
     padding: 10px;
     text-align: center;
-    font-size: 7rem;
+    font-size: 5rem;
   }
 
   .subtitle {
@@ -127,7 +127,7 @@ footer {
   color: $color-primary;
   margin: 15px auto;
   width: 420px;
-  height: 170px;
+  height: 190px;
 }
 
 // carousel
@@ -137,12 +137,25 @@ footer {
 }
 
 .carousel {
-  width: 700px;
+  width: 600px;
   margin: 40px auto;
 
-  img {
-    border-radius: 10px;
-    margin: 0 auto;
+  .jumbotron {
+    width: 400px;
+    border-radius: 20px;
+    margin: 10px auto;
+    box-shadow: 10px 10px 5px 0px $color-primary;
+
+    h1,
+    .lead,
+    p {
+      font-family: $font-primary;
+      color: $color-primary;
+    }
+  }
+
+  .btn {
+    margin: 10px;
   }
 }
 
@@ -153,12 +166,10 @@ footer {
   text-align: center;
   color: $color-secondary;
 
-  .me {
-    h3 {
-      font-family: $font-primary;
-      margin-bottom: 2px;
-      font-size: 1.8rem;
-    }
+  .me h3 {
+    font-family: $font-primary;
+    margin-bottom: 2px;
+    font-size: 1.8rem;
   }
 
   .cardMe {
@@ -188,8 +199,8 @@ footer {
   justify-content: center;
 }
 .twEffect .twText {
-  font-family: $font-primary;
-  font-size: 2.5rem;
+  // font-family: $font-primary;
+  // font-size: 2.5rem;
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
   border-right: 0.12em solid #363636;
@@ -200,8 +211,8 @@ footer {
   /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.3em;
   /* Adjust as needed */
-  animation: typing 2s steps(11, end),
-    /* 11 = Number of letters */ blink-caret 0.3s step-end infinite;
+  animation: typing 2s steps(15, end), blink-caret 0.3s step-end infinite;
+  /* 11 = Number of letters */
 }
 /* The typing effect */
 @keyframes typing {

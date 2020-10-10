@@ -19,7 +19,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <p>
+          <!-- <p>
             Olá! Meu nome é Raul, possuo 3 anos de experiência com TI,
             trabalhando desde Técnico N2/N1 a Analista Jr de Monitoramento NOC.
             Sou natural de São Paulo(Osasco), e atualmente morando em Curitiba.
@@ -45,7 +45,7 @@
             vejo problemas em também pedir ajuda quando necessário. Dedicado,
             foco em estudos de novas tecnologias e soluções, procurando sempre
             me atualizar e aprender todo dia. Disciplina com metas e horários.
-          </p>
+          </p> -->
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">
