@@ -32,7 +32,7 @@
     </div>
 
     <footer>
-      R. D_ &copy; 2020
+      &copy; 2020 Raul Duarte
     </footer>
   </div>
 </template>

@@ -262,7 +262,12 @@
 </template>
 
 <script>
+import $ from "jquery";
+
 export default {
   name: "Carousel",
+  mounted() {
+    $(".carousel").carousel();
+  },
 };
 </script>
