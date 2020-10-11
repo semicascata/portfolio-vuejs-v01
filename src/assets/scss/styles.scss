@@ -5,7 +5,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Merriweather&family=Bree+Serif&display=swap");
 
 // global styles
-$title: "Roboto Slab", serif;
 $font-primary: "Bree Serif", serif;
 $font-secondary: "Merriweather", serif;
 $color-primary: #212121;
@@ -131,7 +130,7 @@ footer {
 }
 
 .container {
-  width: 900px;
+  width: auto;
 }
 
 // cards(home)
@@ -139,23 +138,28 @@ footer {
   font-family: $font-secondary;
   color: $color-primary;
   margin: 15px auto;
-  width: 420px;
-  height: 190px;
+  width: 480px;
+  height: 200px;
 }
 
 // carousel
 .carousel-container {
   padding: 50px;
   text-align: center;
+
+  .carousel-title {
+    font-size: 3.6rem;
+    font-family: $font-secondary;
+  }
 }
 
 .carousel {
-  width: 600px;
+  width: 700px;
   margin: 40px auto;
 
   .jumbotron {
-    width: 400px;
-    border-radius: 20px;
+    width: 500px;
+    border-radius: 60px;
     margin: 10px auto;
     box-shadow: 10px 10px 5px 0px $color-primary;
 
@@ -169,6 +173,10 @@ footer {
 
   .btn {
     margin: 10px;
+  }
+
+  img {
+    width: 90px;
   }
 }
 

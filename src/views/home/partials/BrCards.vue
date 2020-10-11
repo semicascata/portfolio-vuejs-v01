@@ -31,13 +31,13 @@
       <div class="col-sm">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Conhecimento:</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Infra/Redes</h6>
+            <h5 class="card-title">Infra/Redes:</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Conhecimento Técnico</h6>
             <p class="card-text">
-              - Linux (Debian, Arch, CentOS, ShellScript)<br />
-              - Windows/WinServer(AD, Hyper-V)<br />
-              - Tecnologias Cisco(Router & Switch)<br />
-              - Manutenção em desktops e notebooks
+              - Linux (Debian, Arch, CentOS, ShellScript) ⭐⭐<br />
+              - Windows/WinServer(AD, Hyper-V) ⭐⭐<br />
+              - Tecnologias Cisco(Router & Switch) ⭐<br />
+              - Manutenção em desktops e notebooks ⭐⭐⭐
             </p>
           </div>
         </div>
@@ -49,9 +49,9 @@
             <h5 class="card-title">Banco de Dados:</h5>
             <h6 class="card-subtitle mb-2 text-muted">SQL/NoSQL</h6>
             <p class="card-text">
-              - MongoDB<br />
-              - PostgreSQL<br />
-              - OracleDB
+              - MongoDB ⭐⭐<br />
+              - PostgreSQL ⭐⭐<br />
+              - OracleDB ⭐
             </p>
           </div>
         </div>
@@ -61,11 +61,26 @@
         <div class="card-body">
           <h5 class="card-title">Desenvolvimento:</h5>
           <h6 class="card-subtitle mb-2 text-muted">
-            Backend & Frontend (JavaScript/TypeScript)
+            Back & Front
           </h6>
           <p class="card-text">
-            - Backend: Expressjs; Nestjs<br />
-            - Frontend: Reactjs(Redux/Context); Vuejs(Vuex)
+            - Expressjs ⭐⭐ <br />
+            - Nestjs ⭐⭐<br />
+            - Reactjs(Redux/Context) ⭐⭐ <br />
+            - Vuejs(Vuex) ⭐⭐
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Cursos Complementares:</h5>
+          <p class="card-text">
+            - API Masterclass with Expressjs & MongoDB<br />
+            - Modern TypeScript Development with NestJS<br />
+            - ReactJS Essentials with Redux & Context<br />
+            - VueJS Essentials with Vuex and Vue-Router<br />
+            - Web Development Bootcamp
           </p>
         </div>
       </div>

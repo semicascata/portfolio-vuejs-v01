@@ -4,12 +4,6 @@
       <div class="parallaxEffect">
         <Navbar />
         <div class="head-container">
-          <!-- <div class="twContainer">
-            <div class="twEffect">
-              <h4 class="twText title-name">Raul O. Duarte.</h4>
-            </div>
-          </div> -->
-
           <p class="title-effect">
             <span>
               Raul O. Duarte
@@ -26,13 +20,12 @@
 
     <div class="post-parallax-content">
       <div class="carousel-container">
-        <h1><i class="fas fa-terminal"></i> Projects:</h1>
+        <h1 class="carousel-title">
+          <i class="fas fa-terminal"></i> Projects:
+        </h1>
         <Carousel />
       </div>
     </div>
-
-    <!-- modals -->
-    <BrDescModal />
   </div>
 </template>
 

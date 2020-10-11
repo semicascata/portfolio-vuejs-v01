@@ -32,7 +32,7 @@
     </div>
 
     <footer>
-      &copy; 2020 - RD
+      R. D_ &copy; 2020
     </footer>
   </div>
 </template>
